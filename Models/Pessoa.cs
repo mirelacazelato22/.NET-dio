@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace Models
 //organiza por afinidade//
+
+
 {
     public class Pessoa
-    //represnetando o molde de uma pessoa//
     {
-        public string Nome {get;set;}
-        public int Idade {get;set;}
-        //o que minha pessoa tem//
+        public string Nome { get; set; }
+        public int Idade { get; set; }
 
-        public void Apresentar ()
-        //o que minha pessoa vai fazer -- método //
+        public void Apresentar()
         {
-            Console.WriteLine($"Meu nome é {Nome}, e tenho {Idade}, anos ");
-            
-            
+            Nome = "mirela";
+            Idade = 23;
+          Console.WriteLine($"Olá meu nome é {Nome} \n e tenho {Idade} anos");
+
         }
     }
-    
 }

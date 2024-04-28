@@ -1,3 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("teste");
+﻿using Models;
+
+Pessoa pessoa1 = new Pessoa();
+
+
+pessoa1.Nome = "mirela";
+pessoa1.Idade = 26;
+pessoa1.Apresentar();
+
+
+
+
+
 
